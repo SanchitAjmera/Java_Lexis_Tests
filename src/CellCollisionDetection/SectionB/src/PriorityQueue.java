@@ -74,10 +74,17 @@ public class PriorityQueue<T extends Comparable<T>> implements
    */
   public void remove() {
     if (!isEmpty()) {
-      items[0] = items[size-1];
+      T lastPriority = items[size-1];
+      items[0] = lastPriority;
       items[size-1] = null;
       size -= 1;
       PQRebuild(0);
+    }
+  }
+
+  public void displayHeap(){
+    for (T item: items){
+      System.out.println(item + " ");
     }
   }
 
@@ -91,22 +98,22 @@ public class PriorityQueue<T extends Comparable<T>> implements
    * <p> Implement this method for Question 1 </p>
    */
   private void PQRebuild(int root) {
-    if (root == size - 1){
+    if (2*root + 1 > size){
       return;
     }
     T currElem = items[root];
-    T leftChild = items[2*root];
-    T rightChild = items[2*root+1];
+    T leftChild = items[2*root + 1];
+    T rightChild = items[2*(root+1)];
     int nextRoot = -1;
-    if (currElem.compareTo(leftChild) == -1){
-      if (leftChild.compareTo(rightChild) == 1){
-        nextRoot = 2*root;
+    if (currElem.compareTo(leftChild) == 1){
+      if (leftChild.compareTo(rightChild) == -1){
+        nextRoot = 2*root + 1;
       }
       else{
-        nextRoot = 2*root+1;
+        nextRoot = 2*(root+1);
       }
-    } else if (currElem.compareTo(rightChild) == -1) {
-      nextRoot = 2*root+1;
+    } else if (currElem.compareTo(rightChild) == 1) {
+      nextRoot = 2*(root+1);
     }
     if (nextRoot != -1){
       swap(nextRoot, root);

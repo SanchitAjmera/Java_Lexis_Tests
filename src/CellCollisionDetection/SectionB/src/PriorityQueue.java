@@ -73,14 +73,45 @@ public class PriorityQueue<T extends Comparable<T>> implements
    * Removes the element with highest priority.
    */
   public void remove() {
-    // TODO: Implement this method for Question 1
+    if (!isEmpty()) {
+      items[0] = items[size-1];
+      items[size-1] = null;
+      size -= 1;
+      PQRebuild(0);
+    }
+  }
+
+  public void swap(int item1, int item2){
+    T value = items[item1];
+    items[item1] = items[item2];
+    items[item2] = value;
   }
 
   /**
    * <p> Implement this method for Question 1 </p>
    */
   private void PQRebuild(int root) {
-    // TODO: Implement this method for Question 1
+    if (root == size - 1){
+      return;
+    }
+    T currElem = items[root];
+    T leftChild = items[2*root];
+    T rightChild = items[2*root+1];
+    int nextRoot = -1;
+    if (currElem.compareTo(leftChild) == -1){
+      if (leftChild.compareTo(rightChild) == 1){
+        nextRoot = 2*root;
+      }
+      else{
+        nextRoot = 2*root+1;
+      }
+    } else if (currElem.compareTo(rightChild) == -1) {
+      nextRoot = 2*root+1;
+    }
+    if (nextRoot != -1){
+      swap(nextRoot, root);
+      PQRebuild(nextRoot);
+    }
   }
 
 

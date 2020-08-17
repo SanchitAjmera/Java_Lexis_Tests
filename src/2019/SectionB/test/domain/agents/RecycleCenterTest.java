@@ -51,7 +51,7 @@ public class RecycleCenterTest {
       }
     };
 
-    final RecycleCenter recycleCenter = new RecycleCenter(1,marketPlace);
+    final RecycleCenter recycleCenter = new RecycleCenter(1, marketPlace);
     recycleCenter.doAction();
     assertEquals(2, recycledPlasticComponents.size());
   }
@@ -79,7 +79,7 @@ public class RecycleCenterTest {
       }
     };
 
-    final RecycleCenter recycleCenter = new RecycleCenter(1,marketPlace);
+    final RecycleCenter recycleCenter = new RecycleCenter(1, marketPlace);
     recycleCenter.doAction();
     assertEquals(1, recycledPlasticComponents.size());
   }
@@ -94,7 +94,8 @@ public class RecycleCenterTest {
       public Optional<PlasticGood> collectDisposedGood() {
 
         final List<RawPlastic> components = List
-            .of(new RawPlastic(Origin.RECYCLED), new RawPlastic(Origin.NEW), new RawPlastic(Origin.RECYCLED));
+            .of(new RawPlastic(Origin.RECYCLED), new RawPlastic(Origin.NEW),
+                new RawPlastic(Origin.RECYCLED));
         final PlasticGood plasticGood = new PlasticGood(components);
         return Optional.of(plasticGood);
       }
@@ -106,7 +107,7 @@ public class RecycleCenterTest {
       }
     };
 
-    final RecycleCenter recycleCenter = new RecycleCenter(1,marketPlace);
+    final RecycleCenter recycleCenter = new RecycleCenter(1, marketPlace);
     recycleCenter.doAction();
     assertEquals(2, recycledPlasticComponents.size());
   }
@@ -122,12 +123,12 @@ public class RecycleCenterTest {
       @Override
       public Optional<PlasticGood> collectDisposedGood() {
         final List<RawPlastic> components;
-        if(firstInvocation) {
+        if (firstInvocation) {
           components = List
               .of(new RawPlastic(Origin.RECYCLED), new RawPlastic(Origin.NEW),
                   new RawPlastic(Origin.RECYCLED), new RawPlastic(Origin.RECYCLED));
           firstInvocation = false;
-        }else{
+        } else {
           components = List
               .of(new RawPlastic(Origin.RECYCLED));
         }
@@ -142,7 +143,7 @@ public class RecycleCenterTest {
       }
     };
 
-    final RecycleCenter recycleCenter = new RecycleCenter(1,marketPlace);
+    final RecycleCenter recycleCenter = new RecycleCenter(1, marketPlace);
     recycleCenter.doAction();
     recycleCenter.doAction();
     assertEquals(3, recycledPlasticComponents.size());

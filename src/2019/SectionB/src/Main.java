@@ -49,15 +49,8 @@ public class Main {
     IntStream.range(0, numRecycleCenters)
         .forEach(i -> agents.add(new RecycleCenter(recycleCentersThinkingTime, marketPlace)));
 
-    agents.forEach(p -> p.start());
-
-    agents.forEach(p -> {
-      try {
-        p.join();
-      } catch (InterruptedException e) {
-        e.printStackTrace();
-      }
-    });
+    // Start all threads and then wait for their termination. If the program gets stuck, there may
+    // be a deadlock
   }
 
 

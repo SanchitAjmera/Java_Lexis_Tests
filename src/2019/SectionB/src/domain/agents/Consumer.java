@@ -2,6 +2,8 @@ package domain.agents;
 
 import domain.MarketPlace;
 import domain.goods.PlasticGood;
+import domain.goods.RawPlastic;
+
 import java.util.Optional;
 
 public class Consumer extends Agent {
@@ -12,10 +14,10 @@ public class Consumer extends Agent {
 
   @Override
   protected void doAction() {
-    Optional<PlasticGood> good = marketPlace.buyPlasticGood();
-    good.ifPresent(g -> {
-      think();
-      marketPlace.disposePlasticGood(g);
-    });
+    Optional<PlasticGood> boughtGood = marketPlace.buyPlasticGood();
+    if (boughtGood.isPresent()){
+      this.think();
+      marketPlace.disposePlasticGood(boughtGood.get());
+    }
   }
 }

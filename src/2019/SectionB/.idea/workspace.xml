@@ -14,20 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/SafeQueue.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/domain/MarketPlaceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/agents/ChemicalPlant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="543">
+              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,10 +27,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/SafeQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/agents/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/domain/agents/ConsumerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1274#1418#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/utils/ThreadSafeQueueStressTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-28">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,47 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/domain/agents/RecycleCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/MarketPlace.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/domain/agents/RecycleCenterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="114" column="77" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/domain/agents/ConsumerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -98,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/domain/MarketPlaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="374">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
@@ -110,12 +103,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/domain/agents/Manufacturer.java">
+        <entry file="file://$PROJECT_DIR$/test/domain/agents/RecycleCenterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="418">
+              <caret line="152" selection-start-line="152" selection-end-line="152" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#502#651#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,11 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/UnsafeQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -154,7 +146,6 @@
         <option value="$PROJECT_DIR$/src/ExchangeableGood.java" />
         <option value="$PROJECT_DIR$/src/PlasticGood.java" />
         <option value="$PROJECT_DIR$/src/goods/PlasticGood.java" />
-        <option value="$PROJECT_DIR$/src/utils/SafeQueue.java" />
         <option value="$PROJECT_DIR$/src/MarketPlace.java" />
         <option value="$PROJECT_DIR$/src/ChemicalPlant.java" />
         <option value="$PROJECT_DIR$/src/Player.java" />
@@ -175,12 +166,16 @@
         <option value="$PROJECT_DIR$/test/utils/ThreadSafeQueueStressTest.java" />
         <option value="$PROJECT_DIR$/test/domain/MarketPlaceTest.java" />
         <option value="$PROJECT_DIR$/test/domain/players/RecycleCenterTest.java" />
-        <option value="$PROJECT_DIR$/src/domain/MarketPlaceImpl.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/domain/players/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/domain/agents/Consumer.java" />
         <option value="$PROJECT_DIR$/src/domain/MarketPlace.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/domain/MarketPlaceImpl.java" />
+        <option value="$PROJECT_DIR$/src/domain/agents/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/domain/agents/Manufacturer.java" />
+        <option value="$PROJECT_DIR$/src/domain/agents/RecycleCenter.java" />
         <option value="$PROJECT_DIR$/test/domain/agents/ConsumerTest.java" />
+        <option value="$PROJECT_DIR$/src/utils/SafeQueue.java" />
+        <option value="$PROJECT_DIR$/src/utils/UnsafeQueue.java" />
         <option value="$PROJECT_DIR$/test/domain/agents/RecycleCenterTest.java" />
       </list>
     </option>
@@ -195,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,13 +220,6 @@
               <item name="SectionB" type="b2602c69:ProjectViewProjectNode" />
               <item name="SectionB" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SectionB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SectionB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -255,7 +244,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -268,6 +256,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -298,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RecycleCenterTest.oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods">
+  <component name="RunManager" selected="JUnit.All in SectionB">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SectionB" />
@@ -332,7 +321,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerTest.consumerBuysAGoodWhenAvailableAndTrashIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecycleCenterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SectionB" />
       <extension name="coverage">
         <pattern>
@@ -341,8 +330,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="domain.agents" />
-      <option name="MAIN_CLASS_NAME" value="domain.agents.ConsumerTest" />
-      <option name="METHOD_NAME" value="consumerBuysAGoodWhenAvailableAndTrashIt" />
+      <option name="MAIN_CLASS_NAME" value="domain.agents.RecycleCenterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecycleCenterTest.oneRecycledEveryTwoAlreadyRecycledPlasticComponents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SectionB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.agents.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain.agents" />
+      <option name="MAIN_CLASS_NAME" value="domain.agents.RecycleCenterTest" />
+      <option name="METHOD_NAME" value="oneRecycledEveryTwoAlreadyRecycledPlasticComponents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -364,36 +368,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecycleCenterTest.oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SectionB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="domain.agents.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="domain.agents" />
-      <option name="MAIN_CLASS_NAME" value="domain.agents.RecycleCenterTest" />
-      <option name="METHOD_NAME" value="oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.RecycleCenterTest" />
+      <item itemvalue="JUnit.RecycleCenterTest.oneRecycledEveryTwoAlreadyRecycledPlasticComponents" />
       <item itemvalue="JUnit.RecycleCenterTest.oneRecycledEveryTwoOrOneTrashComponents" />
       <item itemvalue="JUnit.All in SectionB" />
-      <item itemvalue="JUnit.ConsumerTest.consumerBuysAGoodWhenAvailableAndTrashIt" />
-      <item itemvalue="JUnit.RecycleCenterTest.oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RecycleCenterTest.oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods" />
-        <item itemvalue="JUnit.ConsumerTest.consumerBuysAGoodWhenAvailableAndTrashIt" />
         <item itemvalue="JUnit.All in SectionB" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.RecycleCenterTest.oneRecycledEveryTwoOrOneTrashComponents" />
+        <item itemvalue="JUnit.RecycleCenterTest.oneRecycledEveryTwoAlreadyRecycledPlasticComponents" />
+        <item itemvalue="JUnit.RecycleCenterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -417,21 +405,11 @@
       <workItem from="1556177117584" duration="3153000" />
       <workItem from="1556194861554" duration="3540000" />
       <workItem from="1556210259113" duration="15348000" />
-      <workItem from="1556236653706" duration="374000" />
-      <workItem from="1556237172819" duration="104000" />
+      <workItem from="1556236113547" duration="899000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RecycleCenterTest_oneRecycledEveryTwoOrOneTrashComponents - 2019.04.25 at 23h 22m 21s.xml">
-      <configuration name="RecycleCenterTest.oneRecycledEveryTwoOrOneTrashComponents" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_SectionB - 2019.04.25 at 23h 35m 10s.xml">
-      <configuration name="All in SectionB" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_SectionB - 2019.04.25 at 23h 49m 23s.xml">
-      <configuration name="All in SectionB" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_SectionB - 2019.04.25 at 23h 50m 37s.xml">
       <configuration name="All in SectionB" configurationId="JUnit" />
     </history-entry>
@@ -441,27 +419,36 @@
     <history-entry file="All_in_SectionB - 2019.04.26 at 00h 57m 08s.xml">
       <configuration name="All in SectionB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConsumerTest_consumerBuysAGoodWhenAvailableAndTrashIt - 2019.04.26 at 01h 58m 47s.xml">
-      <configuration name="ConsumerTest.consumerBuysAGoodWhenAvailableAndTrashIt" configurationId="JUnit" />
+    <history-entry file="All_in_SectionB - 2019.04.26 at 01h 48m 43s.xml">
+      <configuration name="All in SectionB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecycleCenterTest_oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods - 2019.04.26 at 02h 02m 34s.xml">
-      <configuration name="RecycleCenterTest.oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods" configurationId="JUnit" />
+    <history-entry file="All_in_SectionB - 2019.04.26 at 01h 50m 09s.xml">
+      <configuration name="All in SectionB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecycleCenterTest_oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods - 2019.04.26 at 02h 02m 54s.xml">
-      <configuration name="RecycleCenterTest.oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods" configurationId="JUnit" />
+    <history-entry file="All_in_SectionB - 2019.04.26 at 01h 53m 08s.xml">
+      <configuration name="All in SectionB" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RecycleCenterTest_oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods - 2019.04.26 at 02h 02m 59s.xml">
-      <configuration name="RecycleCenterTest.oneRecycledEveryTwoRecycledComponentsFromDifferentDisposedGoods" configurationId="JUnit" />
+    <history-entry file="All_in_SectionB - 2019.04.26 at 01h 56m 09s.xml">
+      <configuration name="All in SectionB" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SectionB - 2019.04.26 at 01h 59m 10s.xml">
+      <configuration name="All in SectionB" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SectionB - 2019.04.26 at 01h 59m 51s.xml">
+      <configuration name="All in SectionB" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_SectionB - 2019.04.26 at 02h 03m 22s.xml">
+      <configuration name="All in SectionB" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22519000" />
+    <option name="totallyTimeSpent" value="22940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21816881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -564,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/QueueTest.java" />
     <entry file="file://$PROJECT_DIR$/test/utils/QueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -578,16 +558,6 @@
           <caret line="4" selection-start-line="2" selection-end-line="4" />
           <folding>
             <element signature="e#295#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/utils/ThreadSafeQueueStressTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -602,43 +572,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/MarketPlaceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1663#1664#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/agents/Agent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="578">
           <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/SafeQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -652,29 +592,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/agents/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/domain/agents/RecycleCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/MarketPlace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="238">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -682,42 +602,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/domain/agents/ConsumerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/domain/MarketPlaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/domain/agents/Manufacturer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/agents/RecycleCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/agents/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/domain/agents/ConsumerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1274#1418#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/UnsafeQueue.java">
+    <entry file="file://$PROJECT_DIR$/test/utils/ThreadSafeQueueStressTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-28">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -726,8 +654,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/domain/agents/RecycleCenterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="114" column="77" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="77" />
+        <state relative-caret-position="418">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#651#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/domain/MarketPlaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/UnsafeQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/SafeQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/domain/MarketPlaceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

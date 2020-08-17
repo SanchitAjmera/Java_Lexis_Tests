@@ -13,35 +13,35 @@ import java.util.Optional;
 
 public class RecycleCenter extends Agent {
 
-  private int newPlastics = 0;
-  private int recycledPlastics = 0;
+    private int newPlastics = 0;
+    private int recycledPlastics = 0;
 
-  public RecycleCenter(int thinkingTimeInMillis, MarketPlace marketPlace) {
-    super(thinkingTimeInMillis, marketPlace);
-  }
+    public RecycleCenter(int thinkingTimeInMillis, MarketPlace marketPlace) {
+        super(thinkingTimeInMillis, marketPlace);
+    }
 
-  @Override
-  protected void doAction() {
-    Optional<PlasticGood> disposedGood = marketPlace.collectDisposedGood();
-    if (disposedGood.isPresent()){
-      Collection<RawPlastic> materials =
-              disposedGood.get().getBasicMaterials();
-      for (RawPlastic rawPlastic : materials){
-        if (rawPlastic.origin == RawPlastic.Origin.NEW){
-          newPlastics += 1;
-        } else {
-          recycledPlastics += 1;
+    @Override
+    protected void doAction() {
+        Optional<PlasticGood> disposedGood = marketPlace.collectDisposedGood();
+        if (disposedGood.isPresent()) {
+            Collection<RawPlastic> materials =
+                    disposedGood.get().getBasicMaterials();
+            for (RawPlastic rawPlastic : materials) {
+                if (rawPlastic.origin == RawPlastic.Origin.NEW) {
+                    newPlastics += 1;
+                } else {
+                    recycledPlastics += 1;
+                }
+            }
         }
-      }
-    }
 
-    while (newPlastics > 0){
-      marketPlace.sellRawPlastic(new RawPlastic(RawPlastic.Origin.RECYCLED));
-      newPlastics -= 1;
+        while (newPlastics > 0) {
+            marketPlace.sellRawPlastic(new RawPlastic(RawPlastic.Origin.RECYCLED));
+            newPlastics -= 1;
+        }
+        while (recycledPlastics > 1) {
+            marketPlace.sellRawPlastic(new RawPlastic(RawPlastic.Origin.RECYCLED));
+            recycledPlastics -= 2;
+        }
     }
-    while (recycledPlastics > 1){
-      marketPlace.sellRawPlastic(new RawPlastic(RawPlastic.Origin.RECYCLED));
-      recycledPlastics -= 2;
-    }
-  }
 }

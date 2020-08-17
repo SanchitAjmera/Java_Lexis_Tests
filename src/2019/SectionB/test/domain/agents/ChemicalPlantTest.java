@@ -10,17 +10,17 @@ import testutils.MockableMarketPlace;
 
 public class ChemicalPlantTest {
 
-  @Test
-  public void chemicalPlantsSellNewRawPlastic() {
-    final MarketPlace marketPlace = new MockableMarketPlace() {
-      @Override
-      public void sellRawPlastic(RawPlastic plasticItem) {
-        assertEquals(Origin.NEW, plasticItem.origin);
-      }
-    };
+    @Test
+    public void chemicalPlantsSellNewRawPlastic() {
+        final MarketPlace marketPlace = new MockableMarketPlace() {
+            @Override
+            public void sellRawPlastic(RawPlastic plasticItem) {
+                assertEquals(Origin.NEW, plasticItem.origin);
+            }
+        };
 
-    final ChemicalPlant chemicalPlant = new ChemicalPlant(1, marketPlace);
-    chemicalPlant.doAction();
-  }
+        final ChemicalPlant chemicalPlant = new ChemicalPlant(1, marketPlace);
+        chemicalPlant.doAction();
+    }
 
 }

@@ -6,12 +6,12 @@ import domain.goods.RawPlastic.Origin;
 
 public class ChemicalPlant extends Agent {
 
-  public ChemicalPlant(int thinkingTimeInMillis, MarketPlace marketPlace) {
-    super(thinkingTimeInMillis, marketPlace);
-  }
+    public ChemicalPlant(int thinkingTimeInMillis, MarketPlace marketPlace) {
+        super(thinkingTimeInMillis, marketPlace);
+    }
 
-  @Override
-  protected void doAction() {
-    marketPlace.sellRawPlastic(new RawPlastic(Origin.NEW));
-  }
+    @Override
+    protected void doAction() {
+        marketPlace.sellRawPlastic(new RawPlastic(Origin.NEW));
+    }
 }
